@@ -9,6 +9,12 @@ body {
   text-align: center;
 }
 
+img{
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+}
+
 h1 {
   font-size: 30px;
   height: 150px;
@@ -50,6 +56,13 @@ header {
 }
 .team li:hover {
   color: blue;
+  -o-transition: all 0.6s;
+  -moz-transition: all 0.6s;
+  -webkit-transition: all 0.6s;
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  
 }
 .position {
   display: flex;
@@ -57,5 +70,5 @@ header {
   align-items: center;
 }
 
-.matches {
-}
+
+
